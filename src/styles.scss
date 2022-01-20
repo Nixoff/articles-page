@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/ihu2xva.css");
+@import 'variaveis';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $cor-fundo;
+}
+
+* {
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    // font-weight: 700;
+    box-sizing: border-box;
+}
